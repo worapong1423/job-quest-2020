@@ -1,4 +1,3 @@
-var number = 12
 function fib(number) {
     var nextnumber = 1
     var resultNumber = 0
@@ -15,4 +14,6 @@ function fib(number) {
     return resultNumber
 }
 
-console.log(fib(number))
+console.log(fib(1))
+console.log(fib(3))
+console.log(fib(12))
