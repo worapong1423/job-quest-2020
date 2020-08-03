@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 75px 10px 75px;
+  
+}
+.inputwrap {
+  flex-direction: column;
+  /* height: 75px */
+  margin-bottom: 25px;
+}
+.input {
+  flex-direction: row;
+}
+.ant-input{
+  margin-bottom: 1em;
+}
+.wrapper {
+height: 100%;
+width: 100%;
+}
+.buttonwrap {
+display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: space-around;
+}
+.button {
+width: 10%;
+height: 35px;
+}
+.table {
+  margin-top: 25px;
+}
+p {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
